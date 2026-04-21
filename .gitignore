@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[oc]
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+.credentials.json
+
+# Runtime artifacts
+results.tsv
+run.log
+traces/
+eval_banking_knowledge/
+tau2-bench/
+run_*.log
+eval_runs/
+
+# tau2-bench embedding cache (semantic retrieval)
+data/.embeddings_cache/
